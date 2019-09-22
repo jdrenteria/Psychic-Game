@@ -3,6 +3,7 @@
 <title>Psychic Game </title>
 <link rel="stylesheet" href="./assets/css/reset.css">
 <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 <body>
     
@@ -13,26 +14,11 @@
 		<p>Losses:</p>
 		<p>Guesses Left:</p>
 		<p>Your Guesses so far:</p>
-	</div>
+    </div>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
 
-<script type="text/javascript">
-var computerChoices = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z",];
 
-var wins = 0;
-var losses = 0;
-var numGuesses = 9;
-var guessChoices = [];
-
-document.onkeyup = function(event) {
-
-    var userGuess = event.key;
-
-    var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
-
-    var options = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z",];
-    
-}
-</script>
 
 </body>
 </html>
+
