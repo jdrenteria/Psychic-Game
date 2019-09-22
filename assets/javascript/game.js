@@ -20,6 +20,7 @@ var guessChoices = [];
 					wins++;
 					numGuesses = 9;
                     guessChoices = [];
+                    alert("You got me!!");
                   
 				}
 
@@ -34,7 +35,7 @@ var guessChoices = [];
 				numGuesses = 9;
 				losses ++;
                 guessChoices = [];
-                
+                alert("All out of guesses, you lose!!");
 			}
 
 			var html = 
